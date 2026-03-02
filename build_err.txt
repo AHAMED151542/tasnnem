@@ -1,0 +1,25 @@
+[31m✗[39m Build failed in 520ms
+[31merror during build:
+[31mBuild failed with 1 error:
+
+[plugin vite:css] C:/Users/ammne/Desktop/thewem/TasneemWeb/src/index.css:7:4
+CssSyntaxError: [postcss] C:/Users/ammne/Desktop/thewem/TasneemWeb/src/index.css:7:5: The `shadow-[0_4px_30px_rgba(0,` class does not exist. If `shadow-[0_4px_30px_rgba(0,` is a custom class, make sure it is defined within a `@layer` directive.
+    at Input.error (C:\Users\ammne\Desktop\thewem\TasneemWeb\node_modules\postcss\lib\input.js:135:16)
+    at AtRule.error (C:\Users\ammne\Desktop\thewem\TasneemWeb\node_modules\postcss\lib\node.js:146:32)
+    at processApply (C:\Users\ammne\Desktop\thewem\TasneemWeb\node_modules\tailwindcss\lib\lib\expandApplyAtRules.js:380:29)
+    at C:\Users\ammne\Desktop\thewem\TasneemWeb\node_modules\tailwindcss\lib\lib\expandApplyAtRules.js:551:9
+    at C:\Users\ammne\Desktop\thewem\TasneemWeb\node_modules\tailwindcss\lib\processTailwindFeatures.js:55:50
+    at async plugins (C:\Users\ammne\Desktop\thewem\TasneemWeb\node_modules\tailwindcss\lib\plugin.js:38:17)
+    at async LazyResult.runAsync (C:\Users\ammne\Desktop\thewem\TasneemWeb\node_modules\postcss\lib\lazy-result.js:293:11)
+    at async runPostCSS (file:///C:/Users/ammne/Desktop/thewem/TasneemWeb/node_modules/vite/dist/node/chunks/node.js:21288:19)
+    at async compilePostCSS (file:///C:/Users/ammne/Desktop/thewem/TasneemWeb/node_modules/vite/dist/node/chunks/node.js:21272:6)
+    at async compileCSS (file:///C:/Users/ammne/Desktop/thewem/TasneemWeb/node_modules/vite/dist/node/chunks/node.js:21202:26)[31m
+    at aggregateBindingErrorsIntoJsError (file:///C:/Users/ammne/Desktop/thewem/TasneemWeb/node_modules/rolldown/dist/shared/error-BYPsvVEN.mjs:52:18)
+    at unwrapBindingResult (file:///C:/Users/ammne/Desktop/thewem/TasneemWeb/node_modules/rolldown/dist/shared/error-BYPsvVEN.mjs:22:128)
+    at #build (file:///C:/Users/ammne/Desktop/thewem/TasneemWeb/node_modules/rolldown/dist/shared/rolldown-build-BsRSEDqH.mjs:3356:34)
+    at async buildEnvironment (file:///C:/Users/ammne/Desktop/thewem/TasneemWeb/node_modules/vite/dist/node/chunks/node.js:32703:64)
+    at async Object.build (file:///C:/Users/ammne/Desktop/thewem/TasneemWeb/node_modules/vite/dist/node/chunks/node.js:33125:19)
+    at async Object.buildApp (file:///C:/Users/ammne/Desktop/thewem/TasneemWeb/node_modules/vite/dist/node/chunks/node.js:33122:153)
+    at async CAC.<anonymous> (file:///C:/Users/ammne/Desktop/thewem/TasneemWeb/node_modules/vite/dist/node/cli.js:642:3) {
+  errors: [Getter/Setter]
+}[39m
